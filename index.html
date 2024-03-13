@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Publications</title>
+    <title>My Personal Page</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f9f9f9;
         }
         header {
-            background-color: #333;
+            background-color: #007bff;
             color: #fff;
             padding: 20px;
             text-align: center;
         }
-        h1 {
+        h1, h2 {
             margin: 0;
         }
         .container {
             max-width: 800px;
             margin: 20px auto;
-            padding: 0 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         ul {
             list-style-type: none;
@@ -42,16 +46,22 @@
 </head>
 <body>
     <header>
-        <h1>My Publications</h1>
+        <h1>Welcome to My Personal Page</h1>
     </header>
     <div class="container">
-        <h2>List of Publications:</h2>
-        <ul>
-            <li><a href="#">Publication 1 Title</a> - Journal/Conference Name, Year</li>
-            <li><a href="#">Publication 2 Title</a> - Journal/Conference Name, Year</li>
-            <li><a href="#">Publication 3 Title</a> - Journal/Conference Name, Year</li>
-            <!-- Add more publications as needed -->
-        </ul>
+        <section id="introduction">
+            <h2>About Me</h2>
+            <p>This is where you can introduce yourself briefly. You can mention your academic background, research interests, and any other relevant information.</p>
+        </section>
+        <section id="publications">
+            <h2>List of Publications</h2>
+            <ul>
+                <li><a href="#">Publication 1 Title</a> - Journal/Conference Name, Year</li>
+                <li><a href="#">Publication 2 Title</a> - Journal/Conference Name, Year</li>
+                <li><a href="#">Publication 3 Title</a> - Journal/Conference Name, Year</li>
+                <!-- Add more publications as needed -->
+            </ul>
+        </section>
     </div>
 </body>
 </html>
