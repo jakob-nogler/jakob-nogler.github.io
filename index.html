@@ -44,7 +44,16 @@
             margin-bottom: 20px;
         }
         .gif {
-		    margin-right: 20px;
+		    margin-left: 10px;
+		}
+		 @media only screen and (max-width: 600px) {
+		    /* Adjust styles for small screens (phones) */
+		    .image {
+		        margin-left: auto;
+		        margin-right: auto;
+		        display: block; /* To center the image */
+		        margin-bottom: 20px;
+		    }
 		}
     </style>
 </head>
@@ -58,7 +67,7 @@
     <header>
         <h1>Jakob Nogler</h1>
         <ul>
-           <img class="gif" src="mail.gif" alt="MAIL GIF"> jnogler at ethz.ch 
+           jnogler at ethz.ch <img class="gif" src="mail.gif" alt="MAIL GIF">
         </ul>
     </header>
         
